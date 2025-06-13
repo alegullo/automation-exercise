@@ -1,5 +1,12 @@
 {
-  "dependencies": {
-    "cypress": "^14.4.1"
+  "devDependencies": {
+    "cypress": "^14.4.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^2.0.5",
+    "mocha-junit-reporter": "^2.2.1"
+  },
+  "scripts": {
+    "cy:open:chrome": "npx cypress open --browser chrome",
+    "cy:run:chrome": "npx cypress run --browser chrome"
   }
 }
