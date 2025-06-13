@@ -25,12 +25,13 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add('login', (username, password) => {
-    cy.visit('https://www.saucedemo.com/')
+    cy.visit('https://automationexercise.com/')
     // Navega até a página de Login/Signup
     cy.get('a[href="/login"]').click()
 
     // Verifica que a página de cadastro está visível
     cy.url().should('eq','https://automationexercise.com/login')
+    cy.contains('h2', 'Login to your account').should('be.visible'); // Adicionando uma verificação de texto
 
     // Preenche os campos de login
     cy.get('input[data-qa="login-email"]').type(username)
