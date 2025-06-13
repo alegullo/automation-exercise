@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="14.973" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-06-13T18:57:57" tests="0" file="cypress\e2e\cadastro.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Cadastro de novo usuário" timestamp="2025-06-13T18:57:57" tests="1" time="14.972" failures="0">
+    <testcase name="Cadastro de novo usuário Deve realizar cadastro e exclusão de usuário com sucesso" time="13.041" classname="Deve realizar cadastro e exclusão de usuário com sucesso">
+    </testcase>
+  </testsuite>
+</testsuites>
