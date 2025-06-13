@@ -28,7 +28,7 @@ describe('Cadastro de novo usuário', () => {
 
     // Verifica que a página de cadastro está visível
     cy.url().should('eq','https://automationexercise.com/login');
-    cy.contains('h2', 'New User Signup!').should('becypress/e2e/cadastro.cy.js.visible'); // Adicionando uma verificação de texto
+    cy.contains('h2', 'New User Signup!').should('be.visible'); // Adicionando uma verificação de texto
 
     // Preenche nome e email usando comando customizado
     cy.fillSignupForm(userName, userEmail);
