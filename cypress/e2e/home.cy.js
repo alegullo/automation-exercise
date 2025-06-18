@@ -6,7 +6,7 @@ describe('Home Page', () => {
     cy.visit('http://automationexercise.com')
   })
 
-  it.skip('Test Case 6 - Contact Us Form', () => {
+  it('Test Case 6 - Contact Us Form', () => {
     // 3. Verify that home page is visible successfully
     cy.get('body').should('be.visible')
     cy.url().should('include', 'automationexercise.com')
