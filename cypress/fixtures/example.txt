@@ -1,0 +1,2 @@
+Este é um arquivo de exemplo para teste de upload.
+Contém texto simples para verificar o funcionamento do upload de arquivos. 

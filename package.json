@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "cypress": "^14.4.1",
+    "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^3.8.2",
     "cypress-multi-reporters": "^2.0.5",
     "mocha-junit-reporter": "^2.2.1"
